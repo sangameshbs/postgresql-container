@@ -9,6 +9,7 @@ FROM centos/s2i-core-centos7
 #  * $POSTGRESQL_DATABASE - Name of the database to create
 #  * $POSTGRESQL_ADMIN_PASSWORD (Optional) - Password for the 'postgres'
 #                           PostgreSQL administrative account
+# Will be changed as per requirement
 
 ENV POSTGRESQL_VERSION=10 \
     POSTGRESQL_PREV_VERSION=9.6 \
